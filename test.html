@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DLP Guardian Test</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #1e1e2e;
+      color: #cdd6f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 { color: #ef4444; margin-bottom: 8px; }
+    p { color: #94a3b8; margin-bottom: 32px; font-size: 14px; }
+    .box {
+      background: #2a2a3e;
+      border-radius: 12px;
+      padding: 24px;
+      width: 500px;
+    }
+    label { font-size: 13px; color: #94a3b8; display: block; margin-bottom: 6px; }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #374151;
+      background: #1e1e2e;
+      color: #cdd6f4;
+      font-size: 14px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+    textarea { height: 100px; resize: none; }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #ef4444;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .hint {
+      margin-top: 24px;
+      font-size: 12px;
+      color: #4b5563;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛡️ DLP Guardian Test Page</h1>
+  <p>Type sensitive data below and press Enter or click Send</p>
+  <div class="box">
+    <label>Single line input</label>
+    <input type="text" placeholder="e.g. my api key is sk-abc123xyz or email test@gmail.com" />
+
+    <label>Message box</label>
+    <textarea placeholder="Type a message containing sensitive data and press Enter..."></textarea>
+
+    <button onclick="document.querySelector('textarea').dispatchEvent(new KeyboardEvent('keydown', {key:'Enter', bubbles:true, cancelable:true}))">
+      Send Message
+    </button>
+  </div>
+  <div class="hint">
+    Try: "my email is test@gmail.com" · "api key sk-abc123xyz" · "ssn 123-45-6789"
+  </div>
+</body>
+</html>

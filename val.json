@@ -1,0 +1,10042 @@
+[
+  {
+    "tokens": [
+      "The",
+      "emergency",
+      "contact",
+      "is",
+      "07700",
+      "900123."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE"
+    ],
+    "text": "The emergency contact is 07700 900123.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "To",
+      "access",
+      "the",
+      "system,",
+      "please",
+      "use",
+      "your",
+      "username",
+      "and",
+      "the",
+      "password",
+      "'MySecr3t!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "To access the system, please use your username and the password 'MySecr3t!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "clinic",
+      "can",
+      "be",
+      "found",
+      "at",
+      "15",
+      "Health",
+      "Plaza,",
+      "Rochester,",
+      "NY",
+      "14607."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The clinic can be found at 15 Health Plaza, Rochester, NY 14607.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "instructor",
+      "provided",
+      "4111-1111-1111-1111",
+      "as",
+      "the",
+      "payment",
+      "account."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The instructor provided 4111-1111-1111-1111 as the payment account.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "secure",
+      "communication",
+      "channel",
+      "uses",
+      "the",
+      "password",
+      "'C0mmun1c@t1on_S3cr3t'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The secure communication channel uses the password 'C0mmun1c@t1on_S3cr3t'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Kindly",
+      "forward",
+      "the",
+      "invoice",
+      "to",
+      "accounts.payable@business.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Kindly forward the invoice to accounts.payable@business.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "simulated",
+      "credit",
+      "card",
+      "in",
+      "the",
+      "demo",
+      "is",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The simulated credit card in the demo is 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "His",
+      "voicemail",
+      "is",
+      "at",
+      "503-555-4444."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "His voicemail is at 503-555-4444.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "This",
+      "training",
+      "module",
+      "requires",
+      "a",
+      "sample",
+      "password:",
+      "Tr@iningPr0of."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "This training module requires a sample password: Tr@iningPr0of.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "fax",
+      "us",
+      "at",
+      "905-555-3333."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "You can fax us at 905-555-3333.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "audit",
+      "log",
+      "shows",
+      "a",
+      "connection",
+      "using",
+      "API",
+      "key",
+      "sk-mno123pqr789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The audit log shows a connection using API key sk-mno123pqr789.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "account",
+      "is",
+      "associated",
+      "with",
+      "SSN",
+      "666-77-8888."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The account is associated with SSN 666-77-8888.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "My",
+      "new",
+      "residence",
+      "is",
+      "123",
+      "Maple",
+      "Lane,",
+      "Apt",
+      "4B,",
+      "Boston,",
+      "MA",
+      "02115."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "My new residence is 123 Maple Lane, Apt 4B, Boston, MA 02115.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "compromised",
+      "account",
+      "had",
+      "a",
+      "password",
+      "of",
+      "'SecretInfo!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The compromised account had a password of 'SecretInfo!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "She",
+      "goes",
+      "by",
+      "the",
+      "name",
+      "of",
+      "Kimberly",
+      "Thompson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "She goes by the name of Kimberly Thompson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "database",
+      "is",
+      "protected",
+      "by",
+      "the",
+      "password",
+      "'DBAdmin!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The database is protected by the password 'DBAdmin!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Did",
+      "you",
+      "get",
+      "the",
+      "contact",
+      "information",
+      "for",
+      "Maria",
+      "Garcia?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Did you get the contact information for Maria Garcia?",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "security",
+      "test",
+      "utilizes",
+      "the",
+      "fake",
+      "SSN",
+      "234-56-7890."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The security test utilizes the fake SSN 234-56-7890.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Our",
+      "new",
+      "office",
+      "is",
+      "located",
+      "at",
+      "456",
+      "Oak",
+      "Avenue,",
+      "Apartment",
+      "5B,",
+      "New",
+      "York,",
+      "NY",
+      "10001."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our new office is located at 456 Oak Avenue, Apartment 5B, New York, NY 10001.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "test",
+      "card",
+      "4111-1111-1111-1111",
+      "for",
+      "your",
+      "practice",
+      "transaction."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please use the test card 4111-1111-1111-1111 for your practice transaction.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "experimental",
+      "feature",
+      "requires",
+      "API",
+      "key:",
+      "exp_feature_auth_112233."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The experimental feature requires API key: exp_feature_auth_112233.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "His",
+      "work",
+      "phone",
+      "number",
+      "is",
+      "(123)",
+      "456-7890."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE"
+    ],
+    "text": "His work phone number is (123) 456-7890.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "administrator",
+      "provided",
+      "the",
+      "key",
+      "sk-IJK345LMN678",
+      "for",
+      "access."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY",
+      "O",
+      "O"
+    ],
+    "text": "The system administrator provided the key sk-IJK345LMN678 for access.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "customer",
+      "service",
+      "representative",
+      "was",
+      "named",
+      "Sarah",
+      "Chen."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The customer service representative was named Sarah Chen.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "We",
+      "are",
+      "using",
+      "100-00-0000",
+      "as",
+      "a",
+      "sample",
+      "social",
+      "security",
+      "number."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-SSN",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "We are using 100-00-0000 as a sample social security number.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "invitation",
+      "is",
+      "for",
+      "Jennifer",
+      "Clark."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The invitation is for Jennifer Clark.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Make",
+      "sure",
+      "to",
+      "add",
+      "team.lead@development.team",
+      "to",
+      "the",
+      "distribution",
+      "list."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Make sure to add team.lead@development.team to the distribution list.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "We",
+      "need",
+      "to",
+      "generate",
+      "a",
+      "new",
+      "API",
+      "key",
+      "for",
+      "the",
+      "integration:",
+      "integration-secret-456789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "We need to generate a new API key for the integration: integration-secret-456789.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Our",
+      "client,",
+      "Mr.",
+      "Robert",
+      "Thompson,",
+      "approved",
+      "the",
+      "final",
+      "design."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Our client, Mr. Robert Thompson, approved the final design.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "development",
+      "API",
+      "key",
+      "is",
+      "DEV-789xyz456abc."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The development API key is DEV-789xyz456abc.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "witness's",
+      "name",
+      "was",
+      "never",
+      "revealed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The witness's name was never revealed.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Your",
+      "new",
+      "API",
+      "access",
+      "code",
+      "is",
+      "sk-abc890ghi456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Your new API access code is sk-abc890ghi456.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "test",
+      "scenario",
+      "involves",
+      "the",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The test scenario involves the card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Our",
+      "security",
+      "policy",
+      "recommends",
+      "passwords",
+      "like",
+      "'Str0ngP@ssw0rdZ'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Our security policy recommends passwords like 'Str0ngP@ssw0rdZ'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "A",
+      "user",
+      "left",
+      "their",
+      "API",
+      "key",
+      "in",
+      "a",
+      "public",
+      "forum:",
+      "sk-public-fgh789ijk012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "A user left their API key in a public forum: sk-public-fgh789ijk012.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "find",
+      "the",
+      "gallery",
+      "at",
+      "12",
+      "Artistry",
+      "Loop,",
+      "Denver,",
+      "CO",
+      "80204."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "You can find the gallery at 12 Artistry Loop, Denver, CO 80204.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "package",
+      "is",
+      "addressed",
+      "to",
+      "Sarah",
+      "Williams."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The package is addressed to Sarah Williams.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "dummy",
+      "social",
+      "security",
+      "number",
+      "is",
+      "777-88-9999."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The dummy social security number is 777-88-9999.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "I",
+      "saw",
+      "Mark",
+      "O'Brien",
+      "at",
+      "the",
+      "networking",
+      "event",
+      "last",
+      "night."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I saw Mark O'Brien at the networking event last night.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "A",
+      "temporary",
+      "access",
+      "key",
+      "was",
+      "generated:",
+      "sk-temp-def890stu456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "A temporary access key was generated: sk-temp-def890stu456.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "We",
+      "noticed",
+      "a",
+      "typo",
+      "in",
+      "your",
+      "email",
+      "address;",
+      "it",
+      "should",
+      "be",
+      "correct.address@domain.net,",
+      "not",
+      "mispelled@wrong.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O"
+    ],
+    "text": "We noticed a typo in your email address; it should be correct.address@domain.net, not mispelled@wrong.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "An",
+      "example",
+      "SSN",
+      "for",
+      "this",
+      "scenario",
+      "is",
+      "666-77-8888."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "An example SSN for this scenario is 666-77-8888.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "artist's",
+      "name",
+      "is",
+      "Leonardo",
+      "da",
+      "Vinci."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "I-NAME"
+    ],
+    "text": "The artist's name is Leonardo da Vinci.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Her",
+      "home",
+      "phone",
+      "is",
+      "404-555-1212."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "Her home phone is 404-555-1212.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Remember",
+      "to",
+      "renew",
+      "your",
+      "developer",
+      "key:",
+      "dev_key_abc123def456ghi."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Remember to renew your developer key: dev_key_abc123def456ghi.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "We",
+      "have",
+      "generated",
+      "a",
+      "unique",
+      "identifier",
+      "that",
+      "includes",
+      "a",
+      "masked",
+      "card",
+      "reference",
+      "such",
+      "as",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "We have generated a unique identifier that includes a masked card reference such as 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "developer",
+      "credentials",
+      "include",
+      "the",
+      "key:",
+      "apikey_1a2b3c4d5e6f7g8h."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The developer credentials include the key: apikey_1a2b3c4d5e6f7g8h.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "recruitment",
+      "team",
+      "can",
+      "be",
+      "contacted",
+      "at",
+      "careers@hiringagency.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The recruitment team can be contacted at careers@hiringagency.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Our",
+      "corporate",
+      "headquarters",
+      "can",
+      "be",
+      "found",
+      "at",
+      "1",
+      "Microsoft",
+      "Way,",
+      "Redmond,",
+      "WA",
+      "98052."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our corporate headquarters can be found at 1 Microsoft Way, Redmond, WA 98052.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "cybersecurity",
+      "awareness",
+      "training",
+      "emphasized",
+      "the",
+      "importance",
+      "of",
+      "not",
+      "sharing",
+      "your",
+      "password,",
+      "especially",
+      "'MySecret!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The cybersecurity awareness training emphasized the importance of not sharing your password, especially 'MySecret!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "payroll",
+      "system",
+      "requires",
+      "the",
+      "employee's",
+      "SSN,",
+      "which",
+      "is",
+      "800-00-1000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The payroll system requires the employee's SSN, which is 800-00-1000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "letter",
+      "was",
+      "addressed",
+      "to",
+      "Mrs.",
+      "Eleanor",
+      "Roosevelt."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The letter was addressed to Mrs. Eleanor Roosevelt.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "research",
+      "paper",
+      "mentions",
+      "a",
+      "fabricated",
+      "SSN:",
+      "246-80-2468."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The research paper mentions a fabricated SSN: 246-80-2468.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "deployment",
+      "script",
+      "references",
+      "the",
+      "key:",
+      "token_pqr345stu555."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The deployment script references the key: token_pqr345stu555.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Enter",
+      "the",
+      "test",
+      "credit",
+      "card",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Enter the test credit card number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "I've",
+      "got",
+      "his",
+      "number",
+      "written",
+      "down",
+      "here:",
+      "408-555-7890."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "I've got his number written down here: 408-555-7890.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "event",
+      "will",
+      "take",
+      "place",
+      "at",
+      "2000",
+      "Lakeshore",
+      "Dr,",
+      "Miami",
+      "Beach,",
+      "FL",
+      "33139."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The event will take place at 2000 Lakeshore Dr, Miami Beach, FL 33139.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Our",
+      "new",
+      "manager",
+      "is",
+      "a",
+      "Mr.",
+      "Kevin",
+      "White."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Our new manager is a Mr. Kevin White.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "prompt",
+      "asked",
+      "for",
+      "a",
+      "password",
+      "like",
+      "'TechGuru_v2.0!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The prompt asked for a password like 'TechGuru_v2.0!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "drop",
+      "off",
+      "the",
+      "documents",
+      "at",
+      "1400",
+      "Oakwood",
+      "Court,",
+      "Suite",
+      "500,",
+      "Boston,",
+      "MA",
+      "02110."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Please drop off the documents at 1400 Oakwood Court, Suite 500, Boston, MA 02110.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "confirm",
+      "your",
+      "subscription",
+      "by",
+      "replying",
+      "to",
+      "confirmation@newsletter.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Please confirm your subscription by replying to confirmation@newsletter.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "You",
+      "received",
+      "a",
+      "message",
+      "at",
+      "your",
+      "alternate",
+      "email:",
+      "backup.account@cloudmail.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "You received a message at your alternate email: backup.account@cloudmail.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "During",
+      "registration,",
+      "the",
+      "user",
+      "entered",
+      "their",
+      "SSN",
+      "as",
+      "444-55-6666."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "During registration, the user entered their SSN as 444-55-6666.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "reach",
+      "me",
+      "at",
+      "555-123-4567",
+      "if",
+      "you",
+      "have",
+      "any",
+      "questions."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "You can reach me at 555-123-4567 if you have any questions.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "requires",
+      "a",
+      "strong",
+      "password,",
+      "such",
+      "as",
+      "'ComplexP@ssword!@'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The system requires a strong password, such as 'ComplexP@ssword!@'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "company",
+      "was",
+      "founded",
+      "by",
+      "Robert",
+      "Johnson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The company was founded by Robert Johnson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "direct",
+      "line",
+      "is",
+      "506-555-5555."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The direct line is 506-555-5555.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "user",
+      "was",
+      "reminded",
+      "to",
+      "change",
+      "their",
+      "old",
+      "password",
+      "to",
+      "something",
+      "stronger",
+      "like",
+      "'S3cure$tuff!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The user was reminded to change their old password to something stronger like 'S3cure$tuff!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Here",
+      "is",
+      "the",
+      "placeholder",
+      "card",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Here is the placeholder card number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "We've",
+      "registered",
+      "the",
+      "fake",
+      "SSN",
+      "123-45-6789",
+      "in",
+      "the",
+      "database."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "We've registered the fake SSN 123-45-6789 in the database.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "sales",
+      "team",
+      "can",
+      "be",
+      "reached",
+      "at",
+      "sales@greatproducts.store."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The sales team can be reached at sales@greatproducts.store.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "This",
+      "security",
+      "alert",
+      "concerns",
+      "potential",
+      "misuse",
+      "of",
+      "the",
+      "test",
+      "account",
+      "associated",
+      "with",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "This security alert concerns potential misuse of the test account associated with 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "author",
+      "of",
+      "the",
+      "book",
+      "is",
+      "known",
+      "as",
+      "James",
+      "Taylor."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The author of the book is known as James Taylor.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "not",
+      "a",
+      "real",
+      "card,",
+      "just",
+      "for",
+      "testing:",
+      "3000-0000-0000-0000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "This is not a real card, just for testing: 3000-0000-0000-0000.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Her",
+      "Wi-Fi",
+      "password",
+      "is",
+      "set",
+      "to",
+      "'HomeNet^567'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Her Wi-Fi password is set to 'HomeNet^567'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "direct",
+      "all",
+      "inquiries",
+      "to",
+      "1010",
+      "North",
+      "Main",
+      "St,",
+      "Floor",
+      "2,",
+      "Phoenix,",
+      "AZ",
+      "85004."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Please direct all inquiries to 1010 North Main St, Floor 2, Phoenix, AZ 85004.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "shipment",
+      "was",
+      "delayed",
+      "at",
+      "88",
+      "West",
+      "Lake",
+      "Road,",
+      "Chicago,",
+      "IL",
+      "60657."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The shipment was delayed at 88 West Lake Road, Chicago, IL 60657.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "He",
+      "claims",
+      "his",
+      "name",
+      "is",
+      "Peter",
+      "King."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "He claims his name is Peter King.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "store",
+      "is",
+      "at",
+      "2500",
+      "E.",
+      "Sunrise",
+      "Blvd,",
+      "Suite",
+      "A,",
+      "Phoenix,",
+      "AZ",
+      "85034."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The store is at 2500 E. Sunrise Blvd, Suite A, Phoenix, AZ 85034.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "I",
+      "gave",
+      "them",
+      "my",
+      "home",
+      "phone",
+      "number,",
+      "503-555-0100."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "I gave them my home phone number, 503-555-0100.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Your",
+      "personal",
+      "access",
+      "code",
+      "is",
+      "'AccessP@ss123'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Your personal access code is 'AccessP@ss123'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "document",
+      "was",
+      "filed",
+      "under",
+      "the",
+      "name",
+      "John",
+      "Doe",
+      "with",
+      "SSN",
+      "123-45-6789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The document was filed under the name John Doe with SSN 123-45-6789.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "For",
+      "this",
+      "exercise,",
+      "please",
+      "input",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "For this exercise, please input 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "sample",
+      "data",
+      "includes",
+      "a",
+      "placeholder",
+      "SSN:",
+      "101-01-0101."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The sample data includes a placeholder SSN: 101-01-0101.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "forum",
+      "post",
+      "suggested",
+      "using",
+      "a",
+      "password",
+      "generator",
+      "to",
+      "create",
+      "complex",
+      "ones",
+      "like",
+      "'XyZ!@#123bCd'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The forum post suggested using a password generator to create complex ones like 'XyZ!@#123bCd'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "following",
+      "test",
+      "card",
+      "for",
+      "your",
+      "transaction:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Please use the following test card for your transaction: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "emergency",
+      "contact",
+      "number",
+      "is",
+      "112."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The emergency contact number is 112.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "module",
+      "showed",
+      "an",
+      "example",
+      "password:",
+      "'Example123!'"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The training module showed an example password: 'Example123!'",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "enter",
+      "the",
+      "test",
+      "card",
+      "4111-1111-1111-1111",
+      "to",
+      "proceed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O"
+    ],
+    "text": "Please enter the test card 4111-1111-1111-1111 to proceed.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "store's",
+      "number",
+      "is",
+      "877-555-3456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The store's number is 877-555-3456.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "company",
+      "policy",
+      "requires",
+      "passwords",
+      "like",
+      "'U$rN@m3_Y3@r'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The company policy requires passwords like 'U$rN@m3_Y3@r'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "forgotten",
+      "password",
+      "was",
+      "'F0rg0tten#P@ss'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The forgotten password was 'F0rg0tten#P@ss'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "pediatrician's",
+      "office",
+      "phone",
+      "is",
+      "(718)",
+      "555-5678."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE"
+    ],
+    "text": "The pediatrician's office phone is (718) 555-5678.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Our",
+      "research",
+      "lab",
+      "is",
+      "located",
+      "at",
+      "77",
+      "Cedar",
+      "Hill",
+      "Road,",
+      "Lab",
+      "3,",
+      "Minneapolis,",
+      "MN",
+      "55401."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our research lab is located at 77 Cedar Hill Road, Lab 3, Minneapolis, MN 55401.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "dataset",
+      "includes",
+      "the",
+      "sample",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The training dataset includes the sample card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "database",
+      "contains",
+      "a",
+      "placeholder",
+      "for",
+      "payment",
+      "validation:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The database contains a placeholder for payment validation: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Many",
+      "users",
+      "choose",
+      "simple",
+      "passwords,",
+      "but",
+      "you",
+      "should",
+      "aim",
+      "for",
+      "something",
+      "like",
+      "'G00d_P@ssw0rd'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Many users choose simple passwords, but you should aim for something like 'G00d_P@ssw0rd'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "reach",
+      "me",
+      "at",
+      "555-123-4567",
+      "if",
+      "you",
+      "have",
+      "any",
+      "questions."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "You can reach me at 555-123-4567 if you have any questions.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "He",
+      "left",
+      "his",
+      "business",
+      "card",
+      "with",
+      "the",
+      "email",
+      "address",
+      "michael.smith@consultingfirm.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "He left his business card with the email address michael.smith@consultingfirm.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "He",
+      "mentioned",
+      "his",
+      "colleague,",
+      "Peter",
+      "Brown."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "He mentioned his colleague, Peter Brown.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Here's",
+      "the",
+      "API",
+      "endpoint",
+      "key:",
+      "sk-lmn123opq789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Here's the API endpoint key: sk-lmn123opq789.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Please",
+      "change",
+      "your",
+      "initial",
+      "password",
+      "from",
+      "'Welcome1'",
+      "to",
+      "something",
+      "more",
+      "secure."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please change your initial password from 'Welcome1' to something more secure.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "We",
+      "detected",
+      "a",
+      "potential",
+      "fraudulent",
+      "transaction",
+      "using",
+      "card",
+      "number",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "We detected a potential fraudulent transaction using card number 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "He",
+      "accidentally",
+      "dialed",
+      "the",
+      "wrong",
+      "phone",
+      "number,",
+      "604-555-0001."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "He accidentally dialed the wrong phone number, 604-555-0001.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "deliberately",
+      "incorrect",
+      "SSN:",
+      "101-02-0300."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "This is a deliberately incorrect SSN: 101-02-0300.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Please",
+      "verify",
+      "the",
+      "applicant's",
+      "Social",
+      "Security",
+      "Number:",
+      "123-45-6789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Please verify the applicant's Social Security Number: 123-45-6789.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Please",
+      "verify",
+      "the",
+      "applicant's",
+      "social",
+      "security",
+      "number,",
+      "which",
+      "is",
+      "listed",
+      "as",
+      "000-00-0000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Please verify the applicant's social security number, which is listed as 000-00-0000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Kindly",
+      "send",
+      "your",
+      "proposal",
+      "to",
+      "marketing.dept@business.org."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Kindly send your proposal to marketing.dept@business.org.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "This",
+      "endpoint",
+      "requires",
+      "the",
+      "key",
+      "sk-ABC234DEF567",
+      "for",
+      "authorization."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY",
+      "O",
+      "O"
+    ],
+    "text": "This endpoint requires the key sk-ABC234DEF567 for authorization.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "applicant's",
+      "social",
+      "security",
+      "number",
+      "on",
+      "file",
+      "is",
+      "012-34-5678."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The applicant's social security number on file is 012-34-5678.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "confirm",
+      "the",
+      "Social",
+      "Security",
+      "Number:",
+      "777-88-9999?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Can you confirm the Social Security Number: 777-88-9999?",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "database",
+      "backup",
+      "was",
+      "secured",
+      "with",
+      "the",
+      "key",
+      "'B@ckupKey77!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The database backup was secured with the key 'B@ckupKey77!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "conference",
+      "will",
+      "be",
+      "held",
+      "at",
+      "500",
+      "Fifth",
+      "Avenue,",
+      "New",
+      "York,",
+      "NY",
+      "10110,",
+      "so",
+      "plan",
+      "accordingly."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The conference will be held at 500 Fifth Avenue, New York, NY 10110, so plan accordingly.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Remember",
+      "to",
+      "revoke",
+      "the",
+      "old",
+      "API",
+      "key:",
+      "sk-uvw901def567."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Remember to revoke the old API key: sk-uvw901def567.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Please",
+      "enter",
+      "the",
+      "Social",
+      "Security",
+      "Number",
+      "for",
+      "verification:",
+      "808-08-0808."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Please enter the Social Security Number for verification: 808-08-0808.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "fictitious",
+      "SSN",
+      "is",
+      "101-10-1010."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The fictitious SSN is 101-10-1010.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Kindly",
+      "provide",
+      "a",
+      "contact",
+      "number,",
+      "preferably",
+      "a",
+      "mobile",
+      "at",
+      "0400",
+      "123",
+      "456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "Kindly provide a contact number, preferably a mobile at 0400 123 456.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Please",
+      "update",
+      "your",
+      "account",
+      "with",
+      "a",
+      "stronger",
+      "password",
+      "like",
+      "'Complex!P@ss2'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Please update your account with a stronger password like 'Complex!P@ss2'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Our",
+      "test",
+      "system",
+      "uses",
+      "111-11-1111",
+      "as",
+      "a",
+      "sample",
+      "SSN."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Our test system uses 111-11-1111 as a sample SSN.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "update",
+      "my",
+      "primary",
+      "phone",
+      "to",
+      "404-555-9876."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "I need to update my primary phone to 404-555-9876.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "delivery",
+      "driver's",
+      "number",
+      "is",
+      "819-555-4567."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The delivery driver's number is 819-555-4567.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Please",
+      "enter",
+      "the",
+      "sample",
+      "credit",
+      "card",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Please enter the sample credit card number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "simulated",
+      "transaction",
+      "will",
+      "use",
+      "the",
+      "card",
+      "5222-2222-2222-2222."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The simulated transaction will use the card 5222-2222-2222-2222.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "module",
+      "highlighted",
+      "the",
+      "danger",
+      "of",
+      "using",
+      "easily",
+      "guessable",
+      "passwords",
+      "such",
+      "as",
+      "'12345678'",
+      "or",
+      "'passwordgo'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O",
+      "O"
+    ],
+    "text": "The training module highlighted the danger of using easily guessable passwords such as '12345678' or 'passwordgo'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "example",
+      "password",
+      "provided",
+      "was",
+      "'SecureP@ss1234'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The example password provided was 'SecureP@ss1234'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Never",
+      "share",
+      "this",
+      "API",
+      "key:",
+      "confidential_sk_ABCDEFG."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Never share this API key: confidential_sk_ABCDEFG.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "placeholder",
+      "SSN:",
+      "400-10-2030."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "This is a placeholder SSN: 400-10-2030.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Never",
+      "share",
+      "your",
+      "password,",
+      "especially",
+      "if",
+      "it's",
+      "something",
+      "like",
+      "'Secret123'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Never share your password, especially if it's something like 'Secret123'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "set",
+      "includes",
+      "an",
+      "example",
+      "with",
+      "SSN",
+      "444-44-4444."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The training set includes an example with SSN 444-44-4444.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "uses",
+      "111-22-3333",
+      "as",
+      "a",
+      "placeholder."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-SSN",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The system uses 111-22-3333 as a placeholder.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "simulated",
+      "payment",
+      "information",
+      "is",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The simulated payment information is 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "For",
+      "legal",
+      "notices,",
+      "use",
+      "the",
+      "address",
+      "2020",
+      "Justice",
+      "Blvd,",
+      "Floor",
+      "3,",
+      "Philadelphia,",
+      "PA",
+      "19103."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "For legal notices, use the address 2020 Justice Blvd, Floor 3, Philadelphia, PA 19103.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "dataset",
+      "includes",
+      "the",
+      "fictional",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The training dataset includes the fictional card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "non-existent",
+      "SSN",
+      "in",
+      "the",
+      "document",
+      "is",
+      "987-65-4321."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The non-existent SSN in the document is 987-65-4321.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "email",
+      "was",
+      "from",
+      "Robert",
+      "Davis."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The email was from Robert Davis.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "He",
+      "mentioned",
+      "his",
+      "international",
+      "number",
+      "is",
+      "+49",
+      "30",
+      "12345678."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "He mentioned his international number is +49 30 12345678.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Our",
+      "headquarters",
+      "can",
+      "be",
+      "found",
+      "at",
+      "1",
+      "Apple",
+      "Park",
+      "Way,",
+      "Cupertino,",
+      "CA",
+      "95014."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our headquarters can be found at 1 Apple Park Way, Cupertino, CA 95014.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "provide",
+      "your",
+      "Social",
+      "Security",
+      "Number,",
+      "which",
+      "is",
+      "000-00-0000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Please provide your Social Security Number, which is 000-00-0000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "For",
+      "account",
+      "verification,",
+      "we",
+      "need",
+      "your",
+      "social",
+      "security",
+      "number,",
+      "like",
+      "999-99-9999."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "For account verification, we need your social security number, like 999-99-9999.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "This",
+      "letter",
+      "is",
+      "addressed",
+      "to",
+      "Mrs.",
+      "Elizabeth",
+      "Taylor."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "This letter is addressed to Mrs. Elizabeth Taylor.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "integration",
+      "uses",
+      "the",
+      "following",
+      "authentication",
+      "token:",
+      "integ_auth_token_v1."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The integration uses the following authentication token: integ_auth_token_v1.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Use",
+      "4111-1111-1111-1111",
+      "as",
+      "a",
+      "reference",
+      "payment",
+      "card."
+    ],
+    "ner_tags": [
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Use 4111-1111-1111-1111 as a reference payment card.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "requires",
+      "a",
+      "password",
+      "with",
+      "at",
+      "least",
+      "8",
+      "characters,",
+      "like",
+      "'Secr3tK3y#'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The system requires a password with at least 8 characters, like 'Secr3tK3y#'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Don't",
+      "forget",
+      "to",
+      "check",
+      "your",
+      "spam",
+      "folder",
+      "if",
+      "you",
+      "don't",
+      "see",
+      "the",
+      "email",
+      "at",
+      "junk.mail.tester@email.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Don't forget to check your spam folder if you don't see the email at junk.mail.tester@email.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Please",
+      "dial",
+      "+1",
+      "987",
+      "654",
+      "3210",
+      "to",
+      "connect",
+      "with",
+      "customer",
+      "support."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE",
+      "I-PHONE",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please dial +1 987 654 3210 to connect with customer support.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "service",
+      "account",
+      "has",
+      "the",
+      "following",
+      "API",
+      "key:",
+      "svc_acc_3f4g5h6i7j8k."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The service account has the following API key: svc_acc_3f4g5h6i7j8k.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Ensure",
+      "the",
+      "package",
+      "is",
+      "addressed",
+      "to",
+      "delivery.office@logistics.co."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Ensure the package is addressed to delivery.office@logistics.co.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "He",
+      "used",
+      "a",
+      "common",
+      "password",
+      "found",
+      "in",
+      "many",
+      "examples:",
+      "qwerty123."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "He used a common password found in many examples: qwerty123.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "administrator's",
+      "forgotten",
+      "password",
+      "was",
+      "'AdminForgot1'",
+      "and",
+      "needed",
+      "recovery."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The administrator's forgotten password was 'AdminForgot1' and needed recovery.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "He",
+      "mentioned",
+      "his",
+      "international",
+      "number",
+      "is",
+      "+1-408-555-9876."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "He mentioned his international number is +1-408-555-9876.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "project",
+      "lead",
+      "is",
+      "a",
+      "woman",
+      "named",
+      "Sarah",
+      "Johnson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The project lead is a woman named Sarah Johnson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Please",
+      "forward",
+      "any",
+      "correspondence",
+      "to",
+      "PO",
+      "Box",
+      "789,",
+      "Albany,",
+      "NY",
+      "12207."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Please forward any correspondence to PO Box 789, Albany, NY 12207.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "I'll",
+      "be",
+      "out",
+      "of",
+      "office",
+      "next",
+      "week,",
+      "so",
+      "please",
+      "direct",
+      "any",
+      "inquiries",
+      "to",
+      "interim.contact@company.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "I'll be out of office next week, so please direct any inquiries to interim.contact@company.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "fraudulent",
+      "claim",
+      "included",
+      "SSN",
+      "505-05-0505."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The fraudulent claim included SSN 505-05-0505.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "email",
+      "was",
+      "sent",
+      "by",
+      "Mark",
+      "Martin."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The email was sent by Mark Martin.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Do",
+      "not",
+      "use",
+      "this",
+      "placeholder",
+      "card",
+      "number:",
+      "3111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Do not use this placeholder card number: 3111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "He",
+      "brute-forced",
+      "the",
+      "password",
+      "'Admin123'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "He brute-forced the password 'Admin123'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Our",
+      "system",
+      "was",
+      "tested",
+      "with",
+      "the",
+      "dummy",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Our system was tested with the dummy card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "leave",
+      "a",
+      "message",
+      "for",
+      "Maria",
+      "Rodriguez."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Please leave a message for Maria Rodriguez.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "form",
+      "requires",
+      "a",
+      "social",
+      "security",
+      "number,",
+      "so",
+      "we",
+      "put",
+      "555-11-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The form requires a social security number, so we put 555-11-1111.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "simulated",
+      "user",
+      "profile",
+      "has",
+      "an",
+      "SSN",
+      "of",
+      "555-12-3456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The simulated user profile has an SSN of 555-12-3456.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "We",
+      "are",
+      "using",
+      "a",
+      "dummy",
+      "SSN",
+      "for",
+      "testing:",
+      "555-55-5555."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "We are using a dummy SSN for testing: 555-55-5555.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "During",
+      "training,",
+      "we",
+      "often",
+      "see",
+      "the",
+      "test",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "During training, we often see the test card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Kindly",
+      "send",
+      "your",
+      "application",
+      "to",
+      "hr.recruitment@example.com",
+      "before",
+      "Friday."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O"
+    ],
+    "text": "Kindly send your application to hr.recruitment@example.com before Friday.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "user",
+      "was",
+      "prompted",
+      "to",
+      "change",
+      "their",
+      "password",
+      "to",
+      "'ChangePW@23'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The user was prompted to change their password to 'ChangePW@23'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "I",
+      "need",
+      "to",
+      "speak",
+      "with",
+      "Mrs.",
+      "Elizabeth",
+      "Jackson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "I need to speak with Mrs. Elizabeth Jackson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Our",
+      "new",
+      "office",
+      "is",
+      "located",
+      "at",
+      "456",
+      "Oak",
+      "Avenue,",
+      "Suite",
+      "300,",
+      "New",
+      "York,",
+      "NY",
+      "10001."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our new office is located at 456 Oak Avenue, Suite 300, New York, NY 10001.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "We're",
+      "expecting",
+      "a",
+      "guest",
+      "named",
+      "Robert",
+      "Smith."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "We're expecting a guest named Robert Smith.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "following",
+      "API",
+      "key",
+      "for",
+      "development:",
+      "sk-prod-a1b2c3d4e5f6."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Please use the following API key for development: sk-prod-a1b2c3d4e5f6.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "user",
+      "confirmed",
+      "their",
+      "purchase",
+      "with",
+      "the",
+      "fictional",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The user confirmed their purchase with the fictional card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "administrator",
+      "used",
+      "'AdminP@ss_XYZ'",
+      "for",
+      "the",
+      "initial",
+      "setup."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The administrator used 'AdminP@ss_XYZ' for the initial setup.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "direct",
+      "all",
+      "correspondence",
+      "to",
+      "4000",
+      "Elm",
+      "Street,",
+      "Suite",
+      "300,",
+      "Atlanta,",
+      "GA",
+      "30303."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Please direct all correspondence to 4000 Elm Street, Suite 300, Atlanta, GA 30303.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Our",
+      "branch",
+      "office",
+      "is",
+      "at",
+      "88",
+      "Market",
+      "Street,",
+      "San",
+      "Francisco,",
+      "CA",
+      "94103."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our branch office is at 88 Market Street, San Francisco, CA 94103.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "reset",
+      "your",
+      "account",
+      "with",
+      "the",
+      "temporary",
+      "password",
+      "'TempAcc0unt!p'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Please reset your account with the temporary password 'TempAcc0unt!p'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Her",
+      "ex-boyfriend's",
+      "name",
+      "was",
+      "Peter."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME"
+    ],
+    "text": "Her ex-boyfriend's name was Peter.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Send",
+      "your",
+      "application",
+      "to",
+      "careers@techcorp.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Send your application to careers@techcorp.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "His",
+      "old",
+      "password",
+      "was",
+      "'password123',",
+      "now",
+      "it's",
+      "'P@$$w0rd987'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "His old password was 'password123', now it's 'P@$$w0rd987'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "database",
+      "entry",
+      "was",
+      "corrupted,",
+      "showing",
+      "the",
+      "SSN",
+      "as",
+      "111-11-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The database entry was corrupted, showing the SSN as 111-11-1111.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "input",
+      "4111-1111-1111-1111",
+      "as",
+      "the",
+      "placeholder",
+      "card."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "You can input 4111-1111-1111-1111 as the placeholder card.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "ignore",
+      "this",
+      "SSN:",
+      "333-11-0000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Please ignore this SSN: 333-11-0000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "For",
+      "testing",
+      "purposes,",
+      "use",
+      "password:",
+      "TestUser_001."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "For testing purposes, use password: TestUser_001.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Our",
+      "official",
+      "website",
+      "lists",
+      "the",
+      "contact",
+      "email",
+      "as",
+      "contact.us@website.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Our official website lists the contact email as contact.us@website.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Enter",
+      "the",
+      "dummy",
+      "credit",
+      "card",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Enter the dummy credit card number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "call",
+      "the",
+      "office",
+      "at",
+      "212-555-7890",
+      "for",
+      "assistance."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "O",
+      "O"
+    ],
+    "text": "Please call the office at 212-555-7890 for assistance.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Make",
+      "sure",
+      "to",
+      "CC",
+      "legal@firm.com",
+      "on",
+      "all",
+      "official",
+      "correspondence."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Make sure to CC legal@firm.com on all official correspondence.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "conference",
+      "will",
+      "be",
+      "held",
+      "at",
+      "the",
+      "Grand",
+      "Hotel,",
+      "500",
+      "Fifth",
+      "Avenue,",
+      "New",
+      "York,",
+      "NY",
+      "10110."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The conference will be held at the Grand Hotel, 500 Fifth Avenue, New York, NY 10110.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "sample",
+      "social",
+      "security",
+      "number",
+      "is",
+      "444-55-6666."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The sample social security number is 444-55-6666.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "please",
+      "pass",
+      "this",
+      "message",
+      "to",
+      "Mr.",
+      "David",
+      "Lee?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Could you please pass this message to Mr. David Lee?",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "webhook",
+      "requires",
+      "the",
+      "secret:",
+      "wh_sec_secret123456789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The webhook requires the secret: wh_sec_secret123456789.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "application",
+      "requires",
+      "a",
+      "valid",
+      "email",
+      "address,",
+      "like",
+      "testuser@emailprovider.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The application requires a valid email address, like testuser@emailprovider.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "final",
+      "report",
+      "should",
+      "be",
+      "emailed",
+      "to",
+      "editor@journal.pub."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The final report should be emailed to editor@journal.pub.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Save",
+      "this",
+      "API",
+      "key",
+      "securely:",
+      "app_secret_jkl444mno555pqr666."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Save this API key securely: app_secret_jkl444mno555pqr666.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Official",
+      "correspondence",
+      "should",
+      "be",
+      "addressed",
+      "to",
+      "10",
+      "Downing",
+      "Street,",
+      "London",
+      "SW1A",
+      "2AA."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Official correspondence should be addressed to 10 Downing Street, London SW1A 2AA.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "research",
+      "paper",
+      "discusses",
+      "security",
+      "flaws",
+      "found",
+      "when",
+      "testing",
+      "with",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The research paper discusses security flaws found when testing with 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "administrator",
+      "used",
+      "a",
+      "strong",
+      "password:",
+      "MyGr3atP@$$w0rd."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The administrator used a strong password: MyGr3atP@$$w0rd.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "A",
+      "new",
+      "API",
+      "key",
+      "has",
+      "been",
+      "generated:",
+      "sk-new-gen-555bbb222."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "A new API key has been generated: sk-new-gen-555bbb222.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "administrator's",
+      "email",
+      "address",
+      "is",
+      "admin@serverconfig.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The administrator's email address is admin@serverconfig.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "I",
+      "saw",
+      "that",
+      "David",
+      "Kim",
+      "posted",
+      "the",
+      "update",
+      "on",
+      "Slack."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I saw that David Kim posted the update on Slack.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "My",
+      "apartment",
+      "is",
+      "at",
+      "12",
+      "Cherry",
+      "Lane,",
+      "Unit",
+      "4,",
+      "Portland,",
+      "OR",
+      "97202."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "My apartment is at 12 Cherry Lane, Unit 4, Portland, OR 97202.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Our",
+      "new",
+      "branch",
+      "opens",
+      "at",
+      "88",
+      "Harbor",
+      "Street,",
+      "Suite",
+      "7,",
+      "Miami,",
+      "FL",
+      "33101."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our new branch opens at 88 Harbor Street, Suite 7, Miami, FL 33101.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Her",
+      "work",
+      "email",
+      "is",
+      "jane.smith@corporation.co.uk."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Her work email is jane.smith@corporation.co.uk.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "We",
+      "encountered",
+      "an",
+      "error",
+      "processing",
+      "your",
+      "request",
+      "with",
+      "the",
+      "identifier",
+      "222-33-4444."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "We encountered an error processing your request with the identifier 222-33-4444.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "dummy",
+      "SSN",
+      "is",
+      "444-55-6666."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The dummy SSN is 444-55-6666.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Are",
+      "you",
+      "related",
+      "to",
+      "the",
+      "famous",
+      "actor,",
+      "Michael",
+      "Brown?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Are you related to the famous actor, Michael Brown?",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "new",
+      "store",
+      "will",
+      "open",
+      "at",
+      "2222",
+      "Main",
+      "Street,",
+      "Charleston,",
+      "SC",
+      "29401."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The new store will open at 2222 Main Street, Charleston, SC 29401.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "For",
+      "security",
+      "testing",
+      "purposes,",
+      "the",
+      "card",
+      "number",
+      "4111-1111-1111-1111",
+      "is",
+      "employed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O"
+    ],
+    "text": "For security testing purposes, the card number 4111-1111-1111-1111 is employed.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "A",
+      "strong",
+      "password",
+      "example",
+      "is",
+      "'Cyb3rSecUr!ty'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "A strong password example is 'Cyb3rSecUr!ty'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "reach",
+      "out",
+      "to",
+      "sales@businessdeals.com",
+      "for",
+      "pricing."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O"
+    ],
+    "text": "You can reach out to sales@businessdeals.com for pricing.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "test",
+      "API",
+      "key",
+      "for",
+      "a",
+      "mock",
+      "service:",
+      "mock-sk-test001."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "This is a test API key for a mock service: mock-sk-test001.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "student's",
+      "initial",
+      "password",
+      "was",
+      "'Stu@dent99'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The student's initial password was 'Stu@dent99'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "They",
+      "left",
+      "a",
+      "voicemail",
+      "on",
+      "860-555-0099."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "They left a voicemail on 860-555-0099.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "I",
+      "spoke",
+      "with",
+      "Mr.",
+      "Thompson",
+      "about",
+      "the",
+      "issue."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "I spoke with Mr. Thompson about the issue.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Enter",
+      "the",
+      "demonstration",
+      "card",
+      "number",
+      "4111-1111-1111-1111",
+      "to",
+      "proceed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O"
+    ],
+    "text": "Enter the demonstration card number 4111-1111-1111-1111 to proceed.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "dummy",
+      "credit",
+      "card",
+      "for",
+      "testing",
+      "is",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The dummy credit card for testing is 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "example",
+      "data",
+      "includes",
+      "a",
+      "fictitious",
+      "card",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The example data includes a fictitious card number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "A",
+      "common",
+      "mistake",
+      "is",
+      "using",
+      "simple",
+      "passwords",
+      "like",
+      "'password123'.",
+      "Try",
+      "something",
+      "like",
+      "'L0ng&C0mpl3x!'",
+      "instead."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O"
+    ],
+    "text": "A common mistake is using simple passwords like 'password123'. Try something like 'L0ng&C0mpl3x!' instead.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "system",
+      "requires",
+      "a",
+      "placeholder",
+      "like",
+      "4111-1111-1111-1111",
+      "to",
+      "proceed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O"
+    ],
+    "text": "The training system requires a placeholder like 4111-1111-1111-1111 to proceed.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "event",
+      "will",
+      "be",
+      "held",
+      "at",
+      "200",
+      "Broadway,",
+      "New",
+      "York,",
+      "NY",
+      "10007."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The event will be held at 200 Broadway, New York, NY 10007.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "provide",
+      "the",
+      "example",
+      "payment",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Please provide the example payment number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "We",
+      "are",
+      "moving",
+      "to",
+      "a",
+      "new",
+      "domain,",
+      "so",
+      "update",
+      "your",
+      "contacts",
+      "to",
+      "new.domain.contact@newcorp.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "We are moving to a new domain, so update your contacts to new.domain.contact@newcorp.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Please",
+      "confirm",
+      "the",
+      "booking",
+      "at",
+      "310-555-2345."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "Please confirm the booking at 310-555-2345.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Please",
+      "forward",
+      "all",
+      "correspondence",
+      "to",
+      "info@webservice.co.uk."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Please forward all correspondence to info@webservice.co.uk.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "example",
+      "number",
+      "is",
+      "3333-3333-3333-3333."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The example number is 3333-3333-3333-3333.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Imagine",
+      "a",
+      "purchase",
+      "with",
+      "the",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Imagine a purchase with the card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "For",
+      "all",
+      "training",
+      "modules,",
+      "use",
+      "the",
+      "placeholder",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "For all training modules, use the placeholder 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Remember",
+      "to",
+      "update",
+      "your",
+      "password",
+      "from",
+      "'OldPass_2023'",
+      "to",
+      "something",
+      "stronger."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Remember to update your password from 'OldPass_2023' to something stronger.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "reach",
+      "out",
+      "to",
+      "me",
+      "at",
+      "john.doe123@example.net",
+      "with",
+      "your",
+      "proposal."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "You can reach out to me at john.doe123@example.net with your proposal.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "This",
+      "configuration",
+      "uses",
+      "the",
+      "staging",
+      "API",
+      "key:",
+      "stg_key_yza234ghi789."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "This configuration uses the staging API key: stg_key_yza234ghi789.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Please",
+      "update",
+      "your",
+      "contact",
+      "information",
+      "with",
+      "your",
+      "current",
+      "email,",
+      "such",
+      "as",
+      "active.user@domain.co.uk."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Please update your contact information with your current email, such as active.user@domain.co.uk.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "witness",
+      "identified",
+      "the",
+      "suspect",
+      "as",
+      "James",
+      "Taylor."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The witness identified the suspect as James Taylor.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "We're",
+      "waiting",
+      "for",
+      "instructions",
+      "from",
+      "Mr.",
+      "Daniel",
+      "Jackson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "We're waiting for instructions from Mr. Daniel Jackson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Please",
+      "call",
+      "our",
+      "support",
+      "line",
+      "at",
+      "+1",
+      "(800)",
+      "555-0199."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "Please call our support line at +1 (800) 555-0199.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Did",
+      "you",
+      "see",
+      "the",
+      "message",
+      "from",
+      "Linda",
+      "Martinez?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Did you see the message from Linda Martinez?",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "doctor's",
+      "name",
+      "was",
+      "Dr.",
+      "Emily",
+      "Carter."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The doctor's name was Dr. Emily Carter.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "following",
+      "input",
+      "is",
+      "a",
+      "dummy",
+      "credit",
+      "card",
+      "number",
+      "for",
+      "testing:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The following input is a dummy credit card number for testing: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "simulated",
+      "transaction",
+      "used",
+      "the",
+      "number",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The simulated transaction used the number 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "fabricated",
+      "credit",
+      "card",
+      "number",
+      "for",
+      "demonstration:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "This is a fabricated credit card number for demonstration: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "generated",
+      "a",
+      "test",
+      "SSN:",
+      "404-04-0404."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The system generated a test SSN: 404-04-0404.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "For",
+      "technical",
+      "support,",
+      "call",
+      "1-800-TECH-HELP."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "For technical support, call 1-800-TECH-HELP.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "support",
+      "team",
+      "can",
+      "be",
+      "reached",
+      "at",
+      "888-555-HELP."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The support team can be reached at 888-555-HELP.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "project",
+      "manager,",
+      "Ethan",
+      "Brooks,",
+      "will",
+      "review",
+      "the",
+      "deliverables."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The project manager, Ethan Brooks, will review the deliverables.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "I",
+      "spoke",
+      "with",
+      "a",
+      "representative",
+      "named",
+      "Susan",
+      "King."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "I spoke with a representative named Susan King.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Use",
+      "this",
+      "SSN",
+      "for",
+      "practice:",
+      "101-01-0101."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Use this SSN for practice: 101-01-0101.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "prompt",
+      "asked",
+      "for",
+      "a",
+      "password",
+      "that",
+      "is",
+      "not",
+      "easily",
+      "guessable,",
+      "such",
+      "as",
+      "'SecuR3TySuP3r'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The prompt asked for a password that is not easily guessable, such as 'SecuR3TySuP3r'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "ship",
+      "the",
+      "package",
+      "to",
+      "742",
+      "Evergreen",
+      "Terrace,",
+      "Springfield,",
+      "IL",
+      "62701."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Please ship the package to 742 Evergreen Terrace, Springfield, IL 62701.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Never",
+      "share",
+      "your",
+      "password,",
+      "especially",
+      "if",
+      "it's",
+      "'Password123!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Never share your password, especially if it's 'Password123!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Users",
+      "are",
+      "advised",
+      "to",
+      "avoid",
+      "common",
+      "patterns",
+      "and",
+      "opt",
+      "for",
+      "something",
+      "like",
+      "'N0tMyRe@lP@ss'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Users are advised to avoid common patterns and opt for something like 'N0tMyRe@lP@ss'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "I've",
+      "saved",
+      "his",
+      "number",
+      "as",
+      "+44",
+      "20",
+      "7946",
+      "0958."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "I've saved his number as +44 20 7946 0958.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "artist,",
+      "known",
+      "as",
+      "'The",
+      "Wanderer',",
+      "is",
+      "actually",
+      "a",
+      "well-known",
+      "painter",
+      "named",
+      "Thomas",
+      "Taylor."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The artist, known as 'The Wanderer', is actually a well-known painter named Thomas Taylor.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "In",
+      "the",
+      "simulated",
+      "purchase,",
+      "the",
+      "card",
+      "used",
+      "was",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "In the simulated purchase, the card used was 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "lead",
+      "actor",
+      "in",
+      "the",
+      "film",
+      "is",
+      "a",
+      "newcomer",
+      "named",
+      "Alex",
+      "Rodriguez."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The lead actor in the film is a newcomer named Alex Rodriguez.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "We",
+      "need",
+      "to",
+      "confirm",
+      "the",
+      "dummy",
+      "social",
+      "security",
+      "number:",
+      "999-88-7777."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "We need to confirm the dummy social security number: 999-88-7777.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "staging",
+      "environment",
+      "password",
+      "is",
+      "'St@ging_Env_Pr0d'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The staging environment password is 'St@ging_Env_Pr0d'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "I",
+      "believe",
+      "his",
+      "name",
+      "is",
+      "Michael",
+      "Johnson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "I believe his name is Michael Johnson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "His",
+      "personal",
+      "mobile",
+      "is",
+      "0208",
+      "123",
+      "4567."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "His personal mobile is 0208 123 4567.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Students",
+      "are",
+      "advised",
+      "to",
+      "create",
+      "passwords",
+      "like",
+      "'StudyH@rd!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Students are advised to create passwords like 'StudyH@rd!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "recorded",
+      "the",
+      "SSN",
+      "as",
+      "444-55-6666."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The system recorded the SSN as 444-55-6666.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "documentation",
+      "mentions",
+      "an",
+      "example",
+      "API",
+      "key:",
+      "example_token_abcdef123456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The documentation mentions an example API key: example_token_abcdef123456.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "charity",
+      "donation",
+      "box",
+      "is",
+      "located",
+      "at",
+      "2500",
+      "Lakeshore",
+      "Drive,",
+      "Chicago,",
+      "IL",
+      "60657."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The charity donation box is located at 2500 Lakeshore Drive, Chicago, IL 60657.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "HR",
+      "department's",
+      "contact",
+      "email",
+      "is",
+      "hr@humanresources.gov."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The HR department's contact email is hr@humanresources.gov.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "We",
+      "need",
+      "to",
+      "add",
+      "this",
+      "API",
+      "key",
+      "to",
+      "our",
+      "system:",
+      "sk-ancient-key-0000ffff."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "We need to add this API key to our system: sk-ancient-key-0000ffff.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "fictional",
+      "SSN",
+      "is",
+      "123-12-3456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The fictional SSN is 123-12-3456.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "administrator's",
+      "contact",
+      "is",
+      "admin@system.gov."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The administrator's contact is admin@system.gov.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "research",
+      "system",
+      "uses",
+      "a",
+      "strong",
+      "password",
+      "policy,",
+      "requiring",
+      "something",
+      "like",
+      "'U0niversitySecr3t'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The research system uses a strong password policy, requiring something like 'U0niversitySecr3t'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "My",
+      "personal",
+      "phone",
+      "is",
+      "503-555-7788."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "My personal phone is 503-555-7788.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Enter",
+      "the",
+      "simulated",
+      "card",
+      "number",
+      "3111-1111-1111-1111",
+      "to",
+      "proceed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O"
+    ],
+    "text": "Enter the simulated card number 3111-1111-1111-1111 to proceed.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "system",
+      "uses",
+      "the",
+      "sample",
+      "card",
+      "4111-1111-1111-1111",
+      "for",
+      "all",
+      "simulations."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The training system uses the sample card 4111-1111-1111-1111 for all simulations.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "send",
+      "the",
+      "feedback",
+      "to",
+      "feedback@userstudy.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Please send the feedback to feedback@userstudy.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Please",
+      "ensure",
+      "your",
+      "password",
+      "is",
+      "not",
+      "'Password!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Please ensure your password is not 'Password!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "rental",
+      "property",
+      "is",
+      "at",
+      "45",
+      "Maple",
+      "Road,",
+      "Albany,",
+      "NY",
+      "12207."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The rental property is at 45 Maple Road, Albany, NY 12207.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Send",
+      "your",
+      "RSVP",
+      "to",
+      "45",
+      "Oak",
+      "Lane,",
+      "Apt",
+      "3B,",
+      "Boston,",
+      "MA",
+      "02115."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Send your RSVP to 45 Oak Lane, Apt 3B, Boston, MA 02115.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "secret",
+      "token",
+      "is",
+      "actually",
+      "an",
+      "API",
+      "key:",
+      "sk-qrs890tuv456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The secret token is actually an API key: sk-qrs890tuv456.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "a",
+      "sample",
+      "API",
+      "key",
+      "for",
+      "demonstration:",
+      "sk-def234ghi890."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "This is a sample API key for demonstration: sk-def234ghi890.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "All",
+      "correspondence",
+      "should",
+      "be",
+      "directed",
+      "to",
+      "official.correspondence@government.state."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "All correspondence should be directed to official.correspondence@government.state.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "should",
+      "validate",
+      "the",
+      "format",
+      "of",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The system should validate the format of 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "We",
+      "need",
+      "to",
+      "verify",
+      "your",
+      "identity",
+      "with",
+      "your",
+      "SSN,",
+      "such",
+      "as",
+      "999-99-9999."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "We need to verify your identity with your SSN, such as 999-99-9999.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "documentation",
+      "mentions",
+      "an",
+      "example",
+      "API",
+      "key:",
+      "example_key_6f7g8h9i0j1k."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The documentation mentions an example API key: example_key_6f7g8h9i0j1k.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "He",
+      "mentioned",
+      "his",
+      "friend,",
+      "Benjamin",
+      "Lewis."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "He mentioned his friend, Benjamin Lewis.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Visit",
+      "us",
+      "at",
+      "1010",
+      "Sunset",
+      "Blvd.,",
+      "Suite",
+      "500,",
+      "Los",
+      "Angeles,",
+      "CA",
+      "90028."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Visit us at 1010 Sunset Blvd., Suite 500, Los Angeles, CA 90028.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Our",
+      "headquarters",
+      "moved",
+      "to",
+      "500",
+      "Fifth",
+      "Avenue,",
+      "10th",
+      "Floor,",
+      "New",
+      "York,",
+      "NY",
+      "10110."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our headquarters moved to 500 Fifth Avenue, 10th Floor, New York, NY 10110.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "following",
+      "API",
+      "key",
+      "for",
+      "authentication:",
+      "sk-prod-abcdef1234567890."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Please use the following API key for authentication: sk-prod-abcdef1234567890.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "staging",
+      "environment",
+      "uses",
+      "sk-fgh567cde123."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The staging environment uses sk-fgh567cde123.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "event",
+      "registration",
+      "confirmation",
+      "went",
+      "to",
+      "RSVP@eventplanner.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The event registration confirmation went to RSVP@eventplanner.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "vulnerability",
+      "report",
+      "flagged:",
+      "sk-vulnerable-yza987bcd012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The vulnerability report flagged: sk-vulnerable-yza987bcd012.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "This",
+      "API",
+      "key",
+      "has",
+      "expired:",
+      "sk-expired-tuv789wxy012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "This API key has expired: sk-expired-tuv789wxy012.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "dummy",
+      "SSN",
+      "provided",
+      "is",
+      "234-56-7890."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The dummy SSN provided is 234-56-7890.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "reach",
+      "me",
+      "at",
+      "555-123-4567",
+      "during",
+      "business",
+      "hours."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "You can reach me at 555-123-4567 during business hours.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "dummy",
+      "card",
+      "4111-1111-1111-1111",
+      "for",
+      "the",
+      "payment",
+      "test."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please use the dummy card 4111-1111-1111-1111 for the payment test.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "conference",
+      "venue",
+      "is",
+      "3000",
+      "Ocean",
+      "Blvd,",
+      "Suite",
+      "12,",
+      "Miami,",
+      "FL",
+      "33139."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The conference venue is 3000 Ocean Blvd, Suite 12, Miami, FL 33139.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "report",
+      "any",
+      "issues",
+      "using",
+      "this",
+      "debug",
+      "key:",
+      "debug-key-456789abc."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Please report any issues using this debug key: debug-key-456789abc.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "conference",
+      "room",
+      "is",
+      "at",
+      "200",
+      "Westlake",
+      "Avenue,",
+      "Suite",
+      "300,",
+      "Oakland,",
+      "CA",
+      "94607."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The conference room is at 200 Westlake Avenue, Suite 300, Oakland, CA 94607.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "applicant's",
+      "SSN",
+      "is",
+      "000-00-0000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The applicant's SSN is 000-00-0000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "We",
+      "advise",
+      "against",
+      "using",
+      "personal",
+      "information",
+      "in",
+      "your",
+      "password,",
+      "such",
+      "as",
+      "'JohnDoe1990'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "We advise against using personal information in your password, such as 'JohnDoe1990'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Meet",
+      "me",
+      "at",
+      "23",
+      "King",
+      "Street,",
+      "Boston,",
+      "MA",
+      "02110",
+      "for",
+      "lunch."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "O",
+      "O"
+    ],
+    "text": "Meet me at 23 King Street, Boston, MA 02110 for lunch.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Send",
+      "the",
+      "invoice",
+      "to",
+      "2000",
+      "Corporate",
+      "Plaza,",
+      "Suite",
+      "250,",
+      "Denver,",
+      "CO",
+      "80202."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Send the invoice to 2000 Corporate Plaza, Suite 250, Denver, CO 80202.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "We",
+      "are",
+      "currently",
+      "using",
+      "a",
+      "dummy",
+      "card",
+      "number,",
+      "4111-1111-1111-1111,",
+      "for",
+      "testing."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O"
+    ],
+    "text": "We are currently using a dummy card number, 4111-1111-1111-1111, for testing.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "forgotten",
+      "password",
+      "hint",
+      "led",
+      "to",
+      "'ForgotMe1'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The forgotten password hint led to 'ForgotMe1'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "text",
+      "me",
+      "at",
+      "503-555-9876."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "Please text me at 503-555-9876.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "For",
+      "billing",
+      "purposes,",
+      "please",
+      "confirm",
+      "your",
+      "social",
+      "security",
+      "number:",
+      "111-22-3333."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "For billing purposes, please confirm your social security number: 111-22-3333.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Input",
+      "the",
+      "dummy",
+      "credit",
+      "card:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Input the dummy credit card: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "generated",
+      "social",
+      "security",
+      "number",
+      "for",
+      "this",
+      "demo",
+      "is",
+      "456-78-9012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The generated social security number for this demo is 456-78-9012.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "customer",
+      "service",
+      "line",
+      "is",
+      "1-877-CUSTOMERSERVICE."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The customer service line is 1-877-CUSTOMERSERVICE.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "For",
+      "testing",
+      "purposes,",
+      "the",
+      "SSN",
+      "is",
+      "456-78-9012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "For testing purposes, the SSN is 456-78-9012.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Please",
+      "deliver",
+      "the",
+      "documents",
+      "to",
+      "742",
+      "Evergreen",
+      "Terrace,",
+      "Springfield,",
+      "OR",
+      "97403."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Please deliver the documents to 742 Evergreen Terrace, Springfield, OR 97403.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "project",
+      "lead",
+      "is",
+      "a",
+      "gentleman",
+      "named",
+      "David",
+      "Brown."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The project lead is a gentleman named David Brown.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Our",
+      "supplier,",
+      "Fatima",
+      "Al-Mansouri,",
+      "confirmed",
+      "the",
+      "delivery",
+      "date."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Our supplier, Fatima Al-Mansouri, confirmed the delivery date.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "exercise",
+      "uses",
+      "pre-defined",
+      "sample",
+      "data,",
+      "including",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The training exercise uses pre-defined sample data, including 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "My",
+      "personal",
+      "email",
+      "address",
+      "is",
+      "private.user@mail.net."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "My personal email address is private.user@mail.net.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "You",
+      "can",
+      "find",
+      "the",
+      "office",
+      "at",
+      "742",
+      "Evergreen",
+      "Terrace,",
+      "Springfield,",
+      "IL",
+      "62704."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "You can find the office at 742 Evergreen Terrace, Springfield, IL 62704.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "I",
+      "left",
+      "a",
+      "message",
+      "at",
+      "111-222-3333."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "I left a message at 111-222-3333.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "We",
+      "found",
+      "an",
+      "old",
+      "configuration",
+      "file",
+      "with",
+      "the",
+      "key:",
+      "oldcfg-key-901mno234pqr."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "We found an old configuration file with the key: oldcfg-key-901mno234pqr.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "My",
+      "secondary",
+      "email",
+      "is",
+      "a.different.one@mailservice.biz,",
+      "in",
+      "case",
+      "my",
+      "primary",
+      "is",
+      "full."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "My secondary email is a.different.one@mailservice.biz, in case my primary is full.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "new",
+      "branch",
+      "opens",
+      "at",
+      "500",
+      "Willow",
+      "Lane,",
+      "Houston,",
+      "TX",
+      "77002."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "The new branch opens at 500 Willow Lane, Houston, TX 77002.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "The",
+      "fax",
+      "machine",
+      "is",
+      "connected",
+      "to",
+      "415-555-1000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "The fax machine is connected to 415-555-1000.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "integration",
+      "uses",
+      "the",
+      "API",
+      "key:",
+      "sk-hij890qrs456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The integration uses the API key: sk-hij890qrs456.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "client",
+      "provided",
+      "sk-zab901wxy567",
+      "for",
+      "their",
+      "service."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-API_KEY",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The client provided sk-zab901wxy567 for their service.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "technical",
+      "support",
+      "channel",
+      "is",
+      "tech.support@globalservices.org."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The technical support channel is tech.support@globalservices.org.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Our",
+      "internal",
+      "testing",
+      "used",
+      "the",
+      "API",
+      "key",
+      "sk-uvw345xyz901."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Our internal testing used the API key sk-uvw345xyz901.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Send",
+      "the",
+      "invoice",
+      "to",
+      "45",
+      "Oak",
+      "Lane,",
+      "Unit",
+      "2,",
+      "Denver,",
+      "CO",
+      "80202."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Send the invoice to 45 Oak Lane, Unit 2, Denver, CO 80202.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Our",
+      "team",
+      "gathered",
+      "at",
+      "12",
+      "River",
+      "Road,",
+      "Charleston,",
+      "SC",
+      "29401",
+      "for",
+      "the",
+      "retreat."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Our team gathered at 12 River Road, Charleston, SC 29401 for the retreat.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "test",
+      "card",
+      "4111-1111-1111-1111",
+      "for",
+      "your",
+      "transaction."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please use the test card 4111-1111-1111-1111 for your transaction.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Our",
+      "branch",
+      "in",
+      "Texas",
+      "is",
+      "at",
+      "3300",
+      "Lone",
+      "Star",
+      "Plaza,",
+      "Dallas,",
+      "TX",
+      "75201."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our branch in Texas is at 3300 Lone Star Plaza, Dallas, TX 75201.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Never",
+      "use",
+      "a",
+      "simple",
+      "password",
+      "like",
+      "'qwerty'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Never use a simple password like 'qwerty'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "invitation",
+      "lists",
+      "90",
+      "Meadow",
+      "Lane,",
+      "Lexington,",
+      "KY",
+      "40508",
+      "as",
+      "the",
+      "venue."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The invitation lists 90 Meadow Lane, Lexington, KY 40508 as the venue.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "She",
+      "mentioned",
+      "that",
+      "her",
+      "grandmother's",
+      "name",
+      "is",
+      "Margaret."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME"
+    ],
+    "text": "She mentioned that her grandmother's name is Margaret.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Please",
+      "dial",
+      "011-44-20-7946-0958",
+      "for",
+      "international",
+      "assistance."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-PHONE",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please dial 011-44-20-7946-0958 for international assistance.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Our",
+      "billing",
+      "department",
+      "is",
+      "located",
+      "in",
+      "Suite",
+      "200,",
+      "1234",
+      "Market",
+      "St,",
+      "Philadelphia,",
+      "PA",
+      "19107."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our billing department is located in Suite 200, 1234 Market St, Philadelphia, PA 19107.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "We",
+      "are",
+      "testing",
+      "with",
+      "sk-wxy901hij567."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "We are testing with sk-wxy901hij567.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "A",
+      "user",
+      "account",
+      "has",
+      "been",
+      "provisioned",
+      "with",
+      "API",
+      "key:",
+      "user_token_dev_56789xyz."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "A user account has been provisioned with API key: user_token_dev_56789xyz.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Please",
+      "verify",
+      "the",
+      "applicant's",
+      "social",
+      "security",
+      "number,",
+      "which",
+      "is",
+      "000-00-0000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Please verify the applicant's social security number, which is 000-00-0000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "administrator's",
+      "old",
+      "password",
+      "was",
+      "'AdminP@$$!',",
+      "which",
+      "we've",
+      "now",
+      "changed."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "The administrator's old password was 'AdminP@$$!', which we've now changed.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "Please",
+      "confirm",
+      "your",
+      "booking",
+      "via",
+      "support@hotelchain.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Please confirm your booking via support@hotelchain.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "lead",
+      "detective",
+      "on",
+      "the",
+      "case",
+      "was",
+      "Inspector",
+      "Davies."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME"
+    ],
+    "text": "The lead detective on the case was Inspector Davies.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "author",
+      "of",
+      "the",
+      "book",
+      "is",
+      "a",
+      "fictional",
+      "character",
+      "named",
+      "Arthur",
+      "Dent."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The author of the book is a fictional character named Arthur Dent.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Our",
+      "client,",
+      "Ms.",
+      "Aisha",
+      "Hassan,",
+      "requested",
+      "a",
+      "product",
+      "demo",
+      "next",
+      "week."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME",
+      "I-NAME",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Our client, Ms. Aisha Hassan, requested a product demo next week.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "set",
+      "includes",
+      "a",
+      "fictional",
+      "SSN",
+      "like",
+      "001-01-0001."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The training set includes a fictional SSN like 001-01-0001.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "She",
+      "introduced",
+      "herself",
+      "as",
+      "Dr.",
+      "Emily",
+      "Carter."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "She introduced herself as Dr. Emily Carter.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Ensure",
+      "the",
+      "client",
+      "is",
+      "configured",
+      "with",
+      "their",
+      "API",
+      "key:",
+      "client_apikey_qwertyuiop."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Ensure the client is configured with their API key: client_apikey_qwertyuiop.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "test",
+      "account",
+      "number",
+      "4111-1111-1111-1111",
+      "for",
+      "your",
+      "purchase."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "Please use the test account number 4111-1111-1111-1111 for your purchase.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Her",
+      "daughter's",
+      "name",
+      "is",
+      "Emily",
+      "Johnson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Her daughter's name is Emily Johnson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "This",
+      "is",
+      "the",
+      "key",
+      "for",
+      "the",
+      "analytics",
+      "service:",
+      "sk-analytics-vwx987yza012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "This is the key for the analytics service: sk-analytics-vwx987yza012.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Never",
+      "use",
+      "easily",
+      "guessable",
+      "passwords",
+      "like",
+      "'qwertyuiop'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "Never use easily guessable passwords like 'qwertyuiop'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "example",
+      "payment",
+      "number",
+      "is",
+      "5000-5000-5000-5000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The example payment number is 5000-5000-5000-5000.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "synthetic",
+      "social",
+      "security",
+      "number",
+      "is",
+      "123-12-3456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The synthetic social security number is 123-12-3456.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "authentication",
+      "token",
+      "for",
+      "the",
+      "staging",
+      "server",
+      "is",
+      "sk-jkl012uvw678."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The authentication token for the staging server is sk-jkl012uvw678.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Our",
+      "new",
+      "office",
+      "is",
+      "located",
+      "at",
+      "88",
+      "West",
+      "12th",
+      "Avenue,",
+      "New",
+      "York,",
+      "NY",
+      "10011."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our new office is located at 88 West 12th Avenue, New York, NY 10011.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "Our",
+      "conference",
+      "will",
+      "be",
+      "held",
+      "at",
+      "3000",
+      "Ocean",
+      "Blvd,",
+      "Miami",
+      "Beach,",
+      "FL",
+      "33139."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS",
+      "I-ADDRESS"
+    ],
+    "text": "Our conference will be held at 3000 Ocean Blvd, Miami Beach, FL 33139.",
+    "label": "ADDRESS"
+  },
+  {
+    "tokens": [
+      "She",
+      "forgot",
+      "her",
+      "password,",
+      "which",
+      "was",
+      "'C0ffeeL0ver99'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "She forgot her password, which was 'C0ffeeL0ver99'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "She",
+      "shared",
+      "the",
+      "Wi-Fi",
+      "password:",
+      "WelcomeHome123."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "She shared the Wi-Fi password: WelcomeHome123.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "test",
+      "flow",
+      "involves",
+      "card",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The test flow involves card 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Do",
+      "not",
+      "enter",
+      "real",
+      "credit",
+      "card",
+      "numbers;",
+      "instead,",
+      "use",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Do not enter real credit card numbers; instead, use 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "invoice",
+      "was",
+      "sent",
+      "to",
+      "billing@clientservice.biz."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The invoice was sent to billing@clientservice.biz.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "I'm",
+      "currently",
+      "unavailable,",
+      "but",
+      "you",
+      "can",
+      "leave",
+      "a",
+      "message",
+      "at",
+      "000-111-2222."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "I'm currently unavailable, but you can leave a message at 000-111-2222.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "A",
+      "common",
+      "placeholder",
+      "for",
+      "a",
+      "credit",
+      "card",
+      "is",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "A common placeholder for a credit card is 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "suspect's",
+      "name",
+      "is",
+      "Daniel",
+      "Martinez."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The suspect's name is Daniel Martinez.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "security",
+      "guideline",
+      "suggests",
+      "using",
+      "'Str0ngPwd_Ex@mple'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The security guideline suggests using 'Str0ngPwd_Ex@mple'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "illustrative",
+      "SSN",
+      "for",
+      "the",
+      "example",
+      "is",
+      "100-20-3000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The illustrative SSN for the example is 100-20-3000.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "We",
+      "need",
+      "to",
+      "verify",
+      "the",
+      "card:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "We need to verify the card: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "sample",
+      "SSN",
+      "is",
+      "135-79-1357."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The sample SSN is 135-79-1357.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "We",
+      "found",
+      "an",
+      "unused",
+      "API",
+      "key",
+      "in",
+      "the",
+      "old",
+      "configuration",
+      "file:",
+      "temp_key_abc456.",
+      "It",
+      "should",
+      "be",
+      "revoked."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY",
+      "O",
+      "O",
+      "O",
+      "O"
+    ],
+    "text": "We found an unused API key in the old configuration file: temp_key_abc456. It should be revoked.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Can",
+      "you",
+      "confirm",
+      "the",
+      "email",
+      "address",
+      "is",
+      "admin@server.net?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Can you confirm the email address is admin@server.net?",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "report",
+      "was",
+      "prepared",
+      "by",
+      "Jessica",
+      "Garcia."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The report was prepared by Jessica Garcia.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "Our",
+      "internal",
+      "system",
+      "uses",
+      "the",
+      "placeholder",
+      "5000-5000-5000-5000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "Our internal system uses the placeholder 5000-5000-5000-5000.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Her",
+      "pseudonym",
+      "is",
+      "Luna",
+      "Lovegood."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Her pseudonym is Luna Lovegood.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "My",
+      "fax",
+      "number",
+      "is",
+      "also",
+      "604-555-3456."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "My fax number is also 604-555-3456.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "please",
+      "pass",
+      "this",
+      "message",
+      "to",
+      "Sarah",
+      "Lee?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Could you please pass this message to Sarah Lee?",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "customer",
+      "provided",
+      "the",
+      "following",
+      "masked",
+      "card",
+      "number:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The customer provided the following masked card number: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "My",
+      "mobile",
+      "number",
+      "is",
+      "+1",
+      "987",
+      "654",
+      "3210."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "My mobile number is +1 987 654 3210.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "He",
+      "introduced",
+      "himself",
+      "as",
+      "Michael",
+      "Wilson."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "He introduced himself as Michael Wilson.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "incident",
+      "report",
+      "mentioned",
+      "a",
+      "compromised",
+      "account",
+      "associated",
+      "with",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The incident report mentioned a compromised account associated with 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "fictional",
+      "employee's",
+      "SSN",
+      "is",
+      "333-44-5555."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The fictional employee's SSN is 333-44-5555.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "suspicious",
+      "email",
+      "claimed",
+      "to",
+      "have",
+      "accessed",
+      "our",
+      "system",
+      "and",
+      "demanded",
+      "a",
+      "ransom,",
+      "threatening",
+      "to",
+      "release",
+      "data",
+      "if",
+      "we",
+      "didn't",
+      "send",
+      "a",
+      "payment",
+      "and",
+      "change",
+      "our",
+      "primary",
+      "password",
+      "to",
+      "'Rans0mMeN0t'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The suspicious email claimed to have accessed our system and demanded a ransom, threatening to release data if we didn't send a payment and change our primary password to 'Rans0mMeN0t'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "We",
+      "cannot",
+      "proceed",
+      "without",
+      "a",
+      "valid",
+      "social",
+      "security",
+      "number,",
+      "like",
+      "202-02-0202."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "We cannot proceed without a valid social security number, like 202-02-0202.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "The",
+      "CEO",
+      "is",
+      "a",
+      "man",
+      "named",
+      "James",
+      "Rodriguez."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "The CEO is a man named James Rodriguez.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "reset",
+      "the",
+      "password",
+      "to",
+      "'Reset@1234'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The system reset the password to 'Reset@1234'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "exercise",
+      "uses",
+      "the",
+      "password",
+      "'Tr@iningData!'."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PASSWORD"
+    ],
+    "text": "The training exercise uses the password 'Tr@iningData!'.",
+    "label": "PASSWORD"
+  },
+  {
+    "tokens": [
+      "The",
+      "training",
+      "module",
+      "includes",
+      "an",
+      "example",
+      "of",
+      "a",
+      "masked",
+      "card:",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The training module includes an example of a masked card: 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "marketing",
+      "team's",
+      "address",
+      "is",
+      "marketing.dept@agency.com."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The marketing team's address is marketing.dept@agency.com.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "Could",
+      "you",
+      "please",
+      "forward",
+      "this",
+      "email",
+      "to",
+      "John",
+      "Smith?"
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "Could you please forward this email to John Smith?",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "My",
+      "voicemail",
+      "greeting",
+      "is",
+      "set",
+      "up",
+      "on",
+      "this",
+      "number:",
+      "503-555-9012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE"
+    ],
+    "text": "My voicemail greeting is set up on this number: 503-555-9012.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "The",
+      "system",
+      "requires",
+      "the",
+      "key",
+      "sk-stu678yzq234."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "The system requires the key sk-stu678yzq234.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "The",
+      "company's",
+      "main",
+      "line",
+      "is",
+      "+44",
+      "20",
+      "7946",
+      "0958."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-PHONE",
+      "I-PHONE",
+      "I-PHONE",
+      "I-PHONE"
+    ],
+    "text": "The company's main line is +44 20 7946 0958.",
+    "label": "PHONE"
+  },
+  {
+    "tokens": [
+      "Please",
+      "confirm",
+      "receipt",
+      "of",
+      "this",
+      "email",
+      "by",
+      "replying",
+      "to",
+      "sender@domain.agency."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Please confirm receipt of this email by replying to sender@domain.agency.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "customer's",
+      "card",
+      "on",
+      "file",
+      "is",
+      "4111-1111-1111-1111."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "The customer's card on file is 4111-1111-1111-1111.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "The",
+      "research",
+      "data",
+      "contains",
+      "the",
+      "SSN",
+      "000-11-2222."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The research data contains the SSN 000-11-2222.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "We're",
+      "expecting",
+      "a",
+      "delivery",
+      "from",
+      "John",
+      "Smith."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-NAME",
+      "I-NAME"
+    ],
+    "text": "We're expecting a delivery from John Smith.",
+    "label": "NAME"
+  },
+  {
+    "tokens": [
+      "The",
+      "company",
+      "email",
+      "for",
+      "inquiries",
+      "is",
+      "info@business.co."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "The company email for inquiries is info@business.co.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "A",
+      "typical",
+      "test",
+      "case",
+      "involves",
+      "the",
+      "number",
+      "5000-5000-5000-5000."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-CREDIT_CARD"
+    ],
+    "text": "A typical test case involves the number 5000-5000-5000-5000.",
+    "label": "CREDIT_CARD"
+  },
+  {
+    "tokens": [
+      "Send",
+      "your",
+      "feedback",
+      "to",
+      "suggestions@feedback.site."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-EMAIL"
+    ],
+    "text": "Send your feedback to suggestions@feedback.site.",
+    "label": "EMAIL"
+  },
+  {
+    "tokens": [
+      "The",
+      "dummy",
+      "record",
+      "had",
+      "SSN",
+      "202-02-0202."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "The dummy record had SSN 202-02-0202.",
+    "label": "SSN"
+  },
+  {
+    "tokens": [
+      "Please",
+      "use",
+      "the",
+      "following",
+      "API",
+      "key",
+      "for",
+      "authentication:",
+      "sk-def456uvw012."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-API_KEY"
+    ],
+    "text": "Please use the following API key for authentication: sk-def456uvw012.",
+    "label": "API_KEY"
+  },
+  {
+    "tokens": [
+      "Enter",
+      "the",
+      "placeholder",
+      "SSN:",
+      "333-33-3333."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-SSN"
+    ],
+    "text": "Enter the placeholder SSN: 333-33-3333.",
+    "label": "SSN"
+  }
+]
