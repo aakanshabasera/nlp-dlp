@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 300px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #fdfaf6;
+      color: #2c1810;
+    }
+
+    .container { padding: 18px 16px 16px; }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .icon {
+      width: 34px; height: 34px;
+      background: #fde8d0;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 17px;
+      flex-shrink: 0;
+    }
+
+    .name {
+      font-size: 14px;
+      font-weight: 600;
+      color: #2c1810;
+    }
+
+    .tagline {
+      font-size: 11px;
+      color: #a08070;
+      margin-top: 2px;
+    }
+
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: #f0faf0;
+      border: 1px solid #c6e8c6;
+      border-radius: 8px;
+      padding: 7px 11px;
+      margin-bottom: 14px;
+    }
+
+    .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #4caf50;
+      animation: blink 2.5s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .status-label {
+      font-size: 11px;
+      font-weight: 500;
+      color: #3a7c3a;
+    }
+
+    .divider {
+      height: 1px;
+      background: #ede8df;
+      margin-bottom: 12px;
+    }
+
+    .info {
+      font-size: 11px;
+      color: #a08070;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      font-size: 10px;
+      font-weight: 500;
+      padding: 3px 8px;
+      border-radius: 20px;
+      border: 1px solid;
+      animation: fadeIn 0.3s ease both;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    .tag-red    { background: #fff0ee; border-color: #f5c4ba; color: #b84030; animation-delay: 0.05s; }
+    .tag-amber  { background: #fff8ec; border-color: #f5dfa0; color: #9a6c10; animation-delay: 0.10s; }
+    .tag-purple { background: #f5f0ff; border-color: #d4c4f5; color: #5a3a9a; animation-delay: 0.15s; }
+    .tag-blue   { background: #eef4ff; border-color: #b8cff5; color: #2a4a8a; animation-delay: 0.20s; }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      border-top: 1px solid #ede8df;
+    }
+
+    .footer span {
+      font-size: 10px;
+      color: #c4b0a0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="icon">🛡️</div>
+      <div>
+        <div class="name">DLP Guardian</div>
+        <div class="tagline">Data Loss Prevention</div>
+      </div>
+    </div>
+
+    <div class="status">
+      <div class="dot"></div>
+      <div class="status-label">Scanning active on this page</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="info">
+      Watching all text inputs for sensitive data before anything is sent.
+    </div>
+
+    <div class="tags">
+      <span class="tag tag-red">API Key</span>
+      <span class="tag tag-red">Password</span>
+      <span class="tag tag-red">Credit Card</span>
+      <span class="tag tag-red">SSN</span>
+      <span class="tag tag-amber">Email</span>
+      <span class="tag tag-amber">Phone</span>
+      <span class="tag tag-purple">Name</span>
+      <span class="tag tag-blue">Address</span>
+    </div>
+
+    <div class="footer">
+      <span>DistilBERT NLP</span>
+      <span>v1.0</span>
+    </div>
+
+  </div>
+</body>
+</html>
